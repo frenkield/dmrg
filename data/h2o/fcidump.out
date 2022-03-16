@@ -1,0 +1,187 @@
+Date: 05/03/2021 11:04:27
+===============
+Quantum Package
+===============
+
+Git Commit: Typos corrected.
+Git Date  : Wed Dec 16 11:01:05 2020 +0100
+Git SHA1  : 605bb6440de69d0cd3d0fd5572a932d89c7070e5
+EZFIO Dir : h2o.ezfio
+
+
+Task server running : tcp://127.0.1.1:41279
+.. >>>>> [ IO READ: elec_beta_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005306 GB ] [ VIRT MEM :       0.018009 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000260  s ] [ CPU  TIME:       0.002798  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005306 GB ] [ VIRT MEM :       0.018009 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000520  s ] [ CPU  TIME:       0.002967  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_cartesian ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005306 GB ] [ VIRT MEM :       0.018009 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.000646  s ] [ CPU  TIME:       0.003063  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_power ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005306 GB ] [ VIRT MEM :       0.088326 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.001214  s ] [ CPU  TIME:       0.003494  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_overlap ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005306 GB ] [ VIRT MEM :       0.088326 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.001478  s ] [ CPU  TIME:       0.003665  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_prim_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005306 GB ] [ VIRT MEM :       0.088326 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.001799  s ] [ CPU  TIME:       0.004655  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_expo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005306 GB ] [ VIRT MEM :       0.088326 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.002013  s ] [ CPU  TIME:       0.004837  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_coef ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005306 GB ] [ VIRT MEM :       0.088326 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.002292  s ] [ CPU  TIME:       0.005023  s ] <<<<< ..
+
+.. >>>>> [ IO READ: ao_nucl ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005306 GB ] [ VIRT MEM :       0.088326 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.002611  s ] [ CPU  TIME:       0.005307  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005306 GB ] [ VIRT MEM :       0.088326 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.002824  s ] [ CPU  TIME:       0.005426  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_label ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005306 GB ] [ VIRT MEM :       0.088326 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.003085  s ] [ CPU  TIME:       0.005595  s ] <<<<< ..
+
+.. >>>>> [ IO READ: nucl_charge ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.005306 GB ] [ VIRT MEM :       0.088326 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.003276  s ] [ CPU  TIME:       0.005755  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.005306 GB ] [ VIRT MEM :       0.088326 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.003551  s ] [ CPU  TIME:       0.005937  s ] <<<<< ..
+
+
+Nuclear Coordinates (Angstroms)
+===============================
+
+================ ============ ============ ============ ============
+      Atom          Charge          X            Y            Z 
+================ ============ ============ ============ ============
+O                    8.000000     0.000000     0.000000     0.000000
+H                    1.000000     0.960000     0.000000     0.000000
+H                    1.000000    -0.240370     0.929420     0.000000
+================ ============ ============ ============ ============
+
+* mo_num                                                         7
+
+.. >>>>> [ RES  MEM :       0.006405 GB ] [ VIRT MEM :       0.088326 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.003983  s ] [ CPU  TIME:       0.006276  s ] <<<<< ..
+
+* Number of active   MOs                                         7
+ Active MOs:
+           1           2           3           4           5           6           7
+.. >>>>> [ IO READ: mo_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.006405 GB ] [ VIRT MEM :       0.088326 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.004233  s ] [ CPU  TIME:       0.006433  s ] <<<<< ..
+
+.. >>>>> [ IO READ: elec_alpha_num ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.006405 GB ] [ VIRT MEM :       0.088326 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.004357  s ] [ CPU  TIME:       0.006529  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.006405 GB ] [ VIRT MEM :       0.088326 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.004569  s ] [ CPU  TIME:       0.006648  s ] <<<<< ..
+
+* N_int                                                          1
+ MO map initialized:                   406
+.. >>>>> [ IO READ: io_ao_two_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.006405 GB ] [ VIRT MEM :       0.088326 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.004824  s ] [ CPU  TIME:       0.006804  s ] <<<<< ..
+
+ AO map initialized :                   406
+ Providing the AO integrals
+.. >>>>> [ IO READ: ao_integrals_threshold ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.007694 GB ] [ VIRT MEM :       0.236897 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.013672  s ] [ CPU  TIME:       0.019000  s ] <<<<< ..
+
+ Sorting the map
+ AO integrals provided:
+  Size of AO map :            2.0732879638671875E-003 MB
+  Number of AO integrals :                  206
+  cpu  time :   4.1825000000000001E-002 s
+  wall time :   4.7637453004426789E-002 s  ( x   0.87798564705198123       )
+ 
+ AO -> MO integrals transformation
+ ---------------------------------
+ 
+ Buffers :    1.13220215E-02 MB / core
+ Molecular integrals provided:
+  Size of MO map              5.3062438964843750E-003 MB
+  Number of MO integrals:                   275
+  cpu  time :   3.2369999999999968E-003 s
+  wall time :   1.7835420003393665E-003 s  ( x    1.8149278230532677      )
+.. >>>>> [ IO READ: io_mo_one_e_integrals ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008205 GB ] [ VIRT MEM :       0.424400 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.054897  s ] [ CPU  TIME:       0.052467  s ] <<<<< ..
+
+ Providing the one-electron integrals
+.. >>>>> [ IO READ: do_pseudo ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008205 GB ] [ VIRT MEM :       0.424400 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.055046  s ] [ CPU  TIME:       0.052585  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008205 GB ] [ VIRT MEM :       0.424400 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.055169  s ] [ CPU  TIME:       0.052679  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_kinetic ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008205 GB ] [ VIRT MEM :       0.424400 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.055290  s ] [ CPU  TIME:       0.052773  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_mo_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008205 GB ] [ VIRT MEM :       0.424400 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.055590  s ] [ CPU  TIME:       0.053044  s ] <<<<< ..
+
+.. >>>>> [ IO READ: io_ao_integrals_e_n ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008205 GB ] [ VIRT MEM :       0.424400 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.055710  s ] [ CPU  TIME:       0.053136  s ] <<<<< ..
+
+* Number of core     MOs                                         0
+ Core MOs:
+
+.. >>>>> [ IO READ: io_nuclear_repulsion ] <<<<< ..
+
+.. >>>>> [ RES  MEM :       0.008488 GB ] [ VIRT MEM :       2.299400 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.056199  s ] [ CPU  TIME:       0.053589  s ] <<<<< ..
+
+
+.. >>>>> [ RES  MEM :       0.008488 GB ] [ VIRT MEM :       2.299400 GB ] <<<<< ..
+.. >>>>> [ WALL TIME:       0.056306  s ] [ CPU  TIME:       0.053669  s ] <<<<< ..
+
+* Nuclear repulsion energy                           9.168194339878047    
+Wall time: 0:00:02
+

@@ -1,0 +1,5 @@
+3
+Water Molecule - copied from https://github.com/qulacs/Quantaggle_dataset/blob/master/datasets/Small_Molecules_1/H2O_sto-3g/H2O_sto-3g_singlet_0.96_104.5deg_0.96.hdf5
+O          0.00000        0.00000        0.00000
+H          0.96000        0.00000        0.00000
+H         -0.24037        0.92942        0.00000
