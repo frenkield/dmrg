@@ -13,17 +13,17 @@ of matrix product states*:
 
 The code is organized into several directories:
 
-1. `dmrg:` contains all the DMRG code
+1. `dmrg`: contains all the DMRG code
 
-1. `experiments:` contains various Julia experiments
+1. `experiments`: contains various Julia experiments
 
-1. `itensor:` ITensor examples
+1. `itensor`: ITensor examples
 
-1. `lapack:` contains an example of how to call a ScaLAPACK function
+1. `lapack`: contains an example of how to call a ScaLAPACK function
 from Julia `(qrcp.jl)`. The example specifically calls the ScaLAPACK function
 `dlaqps().`
 
-1. `operator_mpo:` contains an MPO implementation that follows Snajberk's
+1. `operator_mpo`: contains an MPO implementation that follows Snajberk's
 paper (https://edoc.ub.uni-muenchen.de/21974/1/Snajberg_Philipp.pdf). This was
 initially developed to generate MPOs for use with DMRG. However, ITensor's MPO
 generation mechanism is vastly superior. The tests contain examples of using both
@@ -71,7 +71,7 @@ See https://julialang.github.io/PackageCompiler.jl/dev for details.
 To install the Julia packages required by the DMRG code and its associated tests,
 execute the following commands from the Julia REPL:
 ```
-using Pkg
+import Pkg
 Pkg.add("TensorOperations")
 Pkg.add("KrylovKit")
 Pkg.add("ITensors")
@@ -79,7 +79,7 @@ Pkg.add("ITensors")
 
 The Snajberk-based MPO code requires some additional packages:
 ```
-using Pkg
+import Pkg
 Pkg.add("SymPy")
 Pkg.add("Parameters")
 ```
@@ -87,7 +87,7 @@ Pkg.add("Parameters")
 To directly compute the molecular hamiltonian matrix and
 compute its eigenvalue decomposition, install `Arpack.`
 ```
-using Pkg
+import Pkg
 Pkg.add("Arpack")
 ```
 
@@ -175,7 +175,7 @@ The data is conveniently stored in HDF5 format. The code below reads the
 one-electron and two-electron tensors (and full configuration interaction Energy)
 for a water molecule. First install the `HDF5` package:
 
-    using Pkg
+    import Pkg
     Pkg.add("HDF5")
 
 And then:
